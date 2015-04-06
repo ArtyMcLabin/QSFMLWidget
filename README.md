@@ -11,6 +11,7 @@ the meant and easiest way to use the class is:
 ////////////////////////////////////////////////////////
 //mainwindow.cpp
 {
+
     ui->setupUi(this);
     
     QSFMLWidget *drawzone = new QSFMLWidget(this); // default
@@ -21,7 +22,7 @@ the meant and easiest way to use the class is:
 alongside your custom changes into qsfmlwidget.h/cpp (functions etc) for your own project,
 to call them inide your mainwindow.cpp later.
 
-the use seems pretty similar to QOpenGLWidget introduced in Qt5.4, you can also as well add it to your Qt Designer kit,
+the use seems pretty similar to QOpenGLWidget introduced in Qt5.4, you can as well add it to your Qt Designer kit,
 use multiple independant drawzones, resize and move them around with regular QWidget functions.
 
 NOTE: The project is very raw, and is kind of a version i uploaded for other people to start off with Qt+SFML 
